@@ -1,44 +1,60 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<h1 align="center">Simple Redux Store<a href="https://storied-blini-e9cb0b.netlify.app/">Live Demo</a></h1>
 
-## Available Scripts
+### Project Preview
 
-In the project directory, you can run:
+![](https://i.ibb.co/qYPZx65/storied-blini-e9cb0b-netlify-app.jpg)
 
-### `npm start`
+### Info
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+to start this project `git clone [this-git-repo]`
+install all dependiencies by `npm i`
+to start this project `npm start`
+if you want to run it for production `npm run build`
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Project
 
-### `npm test`
+Redux and Redux toolkit used heavily in this project simply this is a shopping app which return you shopping components if you login
+if login is set by default to false and use redux reducers dispatch to populate the states in the store folder
+ __[Simple Redux Store](https://storied-blini-e9cb0b.netlify.app/)__
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Folder Stracture
+- __C:\\Users\\win 7\\Contacts\\React\\Redux\_Shopping\_Card\\Redux\-Shopping\-Cart\-App__
+   - [README.md](README.md)
+   - [node\_modules](node_modules)
+   - [package\-lock.json](package-lock.json)
+   - [package.json](package.json)
+   - __public__
+     - [favicon.ico](public/favicon.ico)
+     - [index.html](public/index.html)
+     - [logo192.png](public/logo192.png)
+     - [logo512.png](public/logo512.png)
+     - [manifest.json](public/manifest.json)
+     - [robots.txt](public/robots.txt)
+   - __src__
+     - [App.css](src/App.css)
+     - [App.js](src/App.js)
+     - [App.test.js](src/App.test.js)
+     - __components__
+       - [Auth.css](src/components/Auth.css)
+       - [Auth.js](src/components/Auth.js)
+       - [Cart.css](src/components/Cart.css)
+       - [Cart.js](src/components/Cart.js)
+       - [CartItem.js](src/components/CartItem.js)
+       - [CartItems.js](src/components/CartItems.js)
+       - [Header.css](src/components/Header.css)
+       - [Header.js](src/components/Header.js)
+       - [Layout.css](src/components/Layout.css)
+       - [Layout.js](src/components/Layout.js)
+       - [Product.css](src/components/Product.css)
+       - [Product.js](src/components/Product.js)
+       - [Products.js](src/components/Products.js)
+     - [index.css](src/index.css)
+     - [index.js](src/index.js)
+     - [logo.svg](src/logo.svg)
+     - [serviceWorker.js](src/serviceWorker.js)
+     - [setupTests.js](src/setupTests.js)
+     - __store__
+       - [auth\-slice.js](src/store/auth-slice.js)
+       - [cart\-slice.js](src/store/cart-slice.js)
+       - [index.js](src/store/index.js)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
