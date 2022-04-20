@@ -1,4 +1,4 @@
-<h1 align="center">Simple Redux Store<a href="https://storied-blini-e9cb0b.netlify.app/">Live Demo</a></h1>
+<h1 align="center">Simple Redux Store <a href="https://storied-blini-e9cb0b.netlify.app/">Live Demo</a></h1>
 
 ### Project Preview
 
